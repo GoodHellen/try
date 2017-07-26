@@ -1,0 +1,182 @@
+#container{
+    width:100%;
+    /*background-color:#F1F1F1;*/
+    background-color:pink;
+    padding: 20px 0 70px 0;
+    position:relative;
+}
+#container>div{
+    margin:0 auto;
+    width:1100px;
+}
+#container h2.super-head{
+    color:#333;
+    margin-top:15px;
+    /*margin-bottom:15px;*/
+}
+h2.super-head span{
+    font-weight:normal;
+    color: #7d7d7d;
+}
+/*超级特卖所有卡片*/
+#super-content{
+    min-height:800px;
+    width:1100px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+/*每一张*/
+#super-content>li.sale-info{
+    margin-top:25px;
+    position:relative;
+    border:1px solid #ddd;
+    width:255px;
+    height:380px;
+    padding:10px;
+    box-sizing:border-box;
+    background-color:#fff;
+}
+#super-content>li.sale-info:hover{
+    box-shadow:2px 2px 8px #ddd;
+}
+#super-content>li.sale-info:hover div.sale-img img{
+    top:-4px;
+    transition:all .3s linear;
+}
+#super-content div.sale-img{
+    width:235px;
+    height:235px;
+}
+#super-content div.sale-img a{
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+#super-content div.sale-img img{
+    width:100%;
+    position:relative;
+    top:0;
+}
+p.sale-title{
+    width:100%;
+    height:46px;
+    font-size:14px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+#super-content div.sale-price{
+    height:40px;
+}
+div.sale-price>span{
+    float:left;
+    font-size:24px;
+    color:#F31F64;
+}
+div.sale-price>a{
+    float:right;
+    background:#F31F64;
+    color:#fff;
+    width:108px;
+    height:37px;
+    display:inline-block;
+    font-size:16px;
+    line-height:37px;
+    text-align:center;
+}
+div.sale-price>a:hover{
+    background:#FC3976;
+}
+/*品牌推荐*/
+div.brand-recommend>ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+div.brand-recommend>ul>li{
+    overflow:hidden;
+    width:135px;
+    height:71px;
+    margin-bottom:3px;
+}
+div.brand-recommend>ul>li:hover  img{
+    transform:scale(1.1);
+    transition:all .5s linear;
+    box-sizing: border-box;
+    border:2px solid #F31F64;
+}
+div.brand-recommend img{
+    width:135px;
+    height:71px;
+}
+/*热销推荐*/
+ul#hot-content{
+    min-height:3000px;
+    background-color:#fff;
+}
+#hot-content>li.hot-info{
+    /*box-sizing: border-box;*/
+    width:330px;
+    height:312px;
+    padding:16px;
+    float:left;
+    border:1px solid #f8f8f8;
+}
+#hot-content>li.hot-info:hover{
+    box-shadow:0px 0px 20px #aaa;
+}
+#hot-content>li.hot-info:hover img{
+    top:-5px;
+    transition:all .3s ease;
+}
+#hot-content div.hot-img img{
+    position:relative;
+    top:0;
+    width:333px;
+    height:216px;
+}
+p.hot-title{
+    margin:15px 0 15px 0;
+    overflow:hidden;
+    font-size:14px;
+    height:24px;
+    width:333px;
+}
+div.hot-price>span{
+    font-size:24px;
+    color:#E73A77;
+}
+div.hot-price>a{
+    position:relative;
+    float:right;
+    display:inline-block;
+    width:108px;
+    height:37px;
+    background:#E73A77;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    line-height:37px;
+}
+
+.all-type-container>a:first-child{
+    background:#e73a77;
+}
+/*回到顶部样式*/
+div#toTop{
+    display:none;
+    position:fixed;
+    bottom:150px;
+    right:40px;
+    width:40px;
+    height:40px;
+}
+div#toTop>a{
+    background:url(../img/to-top.png) 0 0px;
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+div#toTop>a:hover{
+    background:url(../img/to-top.png) 0 -40px;
+}

@@ -1,0 +1,48 @@
+#skin-pic{
+    width:100%;
+    text-align:center;
+}
+#skin-content{
+    width:980px;
+    margin:0 auto;
+    padding-bottom:40px;
+}
+ul.skin-list>li{
+    width:200px;
+    height:280px;
+    float:left;
+    margin:15px 10px;
+    border:2px solid transparent;
+    padding:10px;
+
+}
+ul.skin-list>li:hover{
+    border:2px solid #FF9065;
+}
+ul.skin-list p.p_pname{
+    margin-bottom:10px;
+    width:200px;
+    height:40px;
+    overflow:hidden;
+}
+ul.skin-list p.p_pname>a{
+    display:inline-block;
+    width:100%;
+}
+ul.skin-list img{
+    width:200px;
+    height:200px;
+}
+ul.skin-list p:last-child{
+    font-size:18px;
+    color:#FF9065;
+}
+ul.page>li{
+    float:left;
+}
+ul.page>li>a{
+    color: #fff;
+    background: pink;
+    padding: 4px 8px;
+    margin: 5px;
+}

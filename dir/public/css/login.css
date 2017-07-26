@@ -1,0 +1,58 @@
+#container{
+    width:100%;
+    background:pink;
+}
+div.content{
+    width:1100px;
+    margin:0 auto;
+    padding:50px 0;
+}
+div.pic-box{
+    width:500px;
+    height:340px;
+    padding:60px;
+}
+div.pic-box img{
+    width:500px;
+}
+div.log-box{
+    box-sizing:border-box;
+    padding:40px;
+    width:400px;
+    height:450px;
+    border:1px solid #ddd;
+    box-shadow:0 0 5px #aaa;
+    background:#fff;
+}
+div.log-head>h1{
+    color: #E73A77;
+}
+div.log-head a{
+    color:#E73A77;
+}
+.log-box input{
+    outline: none;
+    border: 1px solid #ddd;
+    width: 250px;
+    height: 25px;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.log-box form span{
+    display: block;
+    position: absolute;
+    margin-top: 25px;
+}
+.log-box>form a{
+    color: #fff;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background: #e73a77;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}

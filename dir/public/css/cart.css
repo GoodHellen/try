@@ -1,0 +1,105 @@
+#cart-container{
+    font-size:14px;
+    width:100%;
+    background:pink;
+    padding:50px 0;
+}
+.cart-content{
+    width:1100px;
+    margin:0 auto;
+}
+div.cart-top,div.cart-foot{
+    padding: 20px 10px;
+    border: 1px dotted #E73A77;
+    color: #E73A77;
+    background-color: #FFFDF0;
+}
+div.cart-top>p{
+    text-align:center;
+}
+div.cart-foot>p{
+    text-align:right;
+}
+div.cart-body table{
+    background-color:#FFFDF0;
+    border-collapse: collapse;
+    width:100%;
+    margin:20px 0;
+}
+table tr{
+    border:1px solid #E73A77;
+}
+table th{
+    padding:10px;
+}
+table td{
+    text-align:left;
+    padding:20px 14px 20px 40px;
+}
+table td.total-price{
+    width:65px;
+}
+div.cart-body td:first-child img{
+    width:50px;
+    height:50px;
+    border:1px solid #ddd;
+    vertical-align:middle;
+}
+table #tb1 span{
+    text-align:center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    float: left;
+    border: 1px solid rgb(221, 221, 221);
+    vertical-align: middle;
+    cursor: pointer;
+}
+table input{
+    outline:none;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    border: 1px solid rgb(221, 221, 221);
+    border-left: 0px;
+    border-right: 0px;
+}
+tfoot{
+    padding:10px;
+}
+tfoot li{
+    float:left;
+    margin-left:20px;
+}
+div.buy{
+    height: 75px;
+    line-height:75px;
+    margin-top: 20px;
+}
+div.buy>a{
+    margin-top: 14px;
+    width: 276px;
+    height: 49px;
+    background: #e4393c;
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 49px;
+    text-align: center;
+}
+div.buy>span>a{
+    padding-right:10px;
+}
+
+
+
+
+
+
+
+
